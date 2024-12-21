@@ -1,7 +1,7 @@
 # 📝✨ WebApp-Shcool-Absence-Management
 
 
-🌟 **A comprehensive web application to manage student absences in a kindergarten using Spring Boot, Angular/, and MySQL.**  
+🌟 **A comprehensive web application to manage student absences in a kindergarten using Spring Boot, Angular, and MySQL.**  
 
 ---
 
