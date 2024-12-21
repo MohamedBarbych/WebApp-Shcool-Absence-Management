@@ -17,7 +17,7 @@
 ## 🛠️ Tools & Technologies  
 | Backend               | Frontend         | Database      | Tools                     |
 |-----------------------|------------------|---------------|---------------------------|
-| Spring Boot 🚀        | Angular/ 🌐 | MySQL 💾      | IntelliJ IDEA 🖥️         |
+| Spring Boot 🚀        | Angular 🌐 | MySQL 💾      | IntelliJ IDEA 🖥️         |
 | Spring Data JPA 📊    | HTML/CSS 🎨      | Hibernate ⚙️ | Maven 🧰                  |
 | Spring MVC 🌐         | JavaScript 🚀    | JDBC 🔗       | Spring Boot Initializer 🔥 |
 
