@@ -10,7 +10,7 @@
 - 🛠️ Built with **Spring Boot** (Spring Data, Spring MVC, Spring IOC).  
 - 🌐 Frontend powered by **Angular** or ****.  
 - 💾 **MySQL** database integration with JPA and Hibernate.  
-- 📡 **REST API** for seamless communication between the backend and frontend.  
+- 📡 **REST API** for seamless back and frontend communication.  
 
 ---
 
