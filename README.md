@@ -23,17 +23,18 @@
 ---
 
 ## 📂 Project Structure  
-src/ ├── main/ │ ├── java/ │ │ ├── com.example.absencemanagement/ │ │ │ ├── controller/ # REST Controllers
-│ │ │ ├── service/ # Services Layer
-│ │ │ ├── repository/ # Repositories Layer
-│ │ │ ├── model/ # JPA Entities
-│ │ │ ├── AbsenceManagementApplication.java # Main Application
-│ ├── resources/ │ │ ├── application.properties # Configurations
 
-src/ ├── main/ │ ├── java/ │ │ ├── com.example.absencemanagement/ │ │ │ ├── controller/ # REST Controllers
-│ │ │ ├── service/ # Services Layer
-│ │ │ ├── repository/ # Repositories Layer
-│ │ │ ├── model/ # JPA Entities
-│ │ │ ├── AbsenceManagementApplication.java # Main Application
-│ ├── resources/ │ │ ├── application.properties # Configurations
+```plaintext
+src/
+├── main/
+│   ├── java/
+│   │   ├── com.example.absencemanagement/
+│   │   │   ├── controller/       # REST Controllers
+│   │   │   ├── service/          # Services Layer
+│   │   │   ├── repository/       # Repositories Layer
+│   │   │   ├── model/            # JPA Entities
+│   │   │   ├── AbsenceManagementApplication.java # Main Application
+│   ├── resources/
+│   │   ├── application.properties # Configurations
+
 
