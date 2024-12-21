@@ -1,5 +1,6 @@
 # 📝✨ WebApp-Shcool-Absence-Management
 
+
 🌟 **A comprehensive web application to manage student absences in a kindergarten using Spring Boot, Angular/React, and MySQL.**  
 
 ---
@@ -37,14 +38,3 @@ src/
 │   ├── resources/
 │   │   ├── application.properties # Configurations
 
-
-
----
-
-## 🎯 Setup Instructions  
-
-### 📦 Backend Setup  
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/YourUsername/SpringBoot-Absence-Management.git
-   cd SpringBoot-Absence-Management
