@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="form-container">
+    <h1 class="form-title">Add Absence</h1>
+    <form (ngSubmit)="addAbsence()">
+      <div class="form-group">
+        <input
+          class="form-input"
+          [(ngModel)]="absence.reason"
+          name="reason"
+          placeholder="Reason"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <input
+          class="form-input"
+          [(ngModel)]="absence.date"
+          name="date"
+          placeholder="Date"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <input
+          class="form-input"
+          [(ngModel)]="absence.student_id"
+          name="student_id"
+          placeholder="Student Id"
+          required
+        />
+      </div>
+      <button class="btn-submit" type="submit">Save</button>
+    </form>
+  </div>
+</div>

@@ -27,6 +27,8 @@ export class AbsenceListComponent implements OnInit {
     });
   }
 
+
+
   addAbsence(): void {
     this.absenceService.createAbsence(this.newAbsence).subscribe(() => {
       this.getAbsences();
@@ -45,5 +47,6 @@ export class AbsenceListComponent implements OnInit {
   }
 
   navigateToUpdateAbscence(id: number) {
-    this.router.navigate(['absences/update/', id]);}
+    this.router.navigate(['absences/update/', id]);
+  }
 }

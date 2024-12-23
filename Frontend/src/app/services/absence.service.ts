@@ -24,5 +24,10 @@ export class AbsenceService {
 
   updateAbsence(id: number, absence: any): Observable<any> {
     return this.http.put<any>(`${this.apiUrl}/${id}`, absence);
+
   }
+  getAbsenceById(id: number): Observable<any> {
+    return this.http.get<any>(`${this.apiUrl}/${id}`);
+  }
+
 }

@@ -1,0 +1,83 @@
+/* Styling for the container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #4facfe, #00f2fe); /* Modern gradient */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/* Form container */
+.form-container {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animation for fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Form title */
+.form-title {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #4f4f4f;
+  font-weight: bold;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+/* Input fields */
+.form-input {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  background: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+  outline: none;
+}
+
+/* Submit button */
+.btn-submit {
+  width: 100%;
+  padding: 0.9rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background: linear-gradient(to right, #6c63ff, #42a5f5);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-submit:hover {
+  background: linear-gradient(to right, #42a5f5, #6c63ff);
+}

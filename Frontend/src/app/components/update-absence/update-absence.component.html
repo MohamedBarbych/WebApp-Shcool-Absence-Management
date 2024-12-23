@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Update Absence</h1>
+  <form (ngSubmit)="updateAbsence()">
+    <input [(ngModel)]="absence.reason" name="reason" placeholder="Reason" required />
+    <input [(ngModel)]="absence.date" name="date" placeholder="Date" required />
+    <input [(ngModel)]="absence.student_id" name="student_id" placeholder="student Id" required />
+
+    <button class="btn btn-warning" type="submit">Update</button>
+  </form>
+</div>
