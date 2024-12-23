@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Update Student</h1>
+  <form (ngSubmit)="updateStudent()">
+    <input [(ngModel)]="student.name" name="name" placeholder="Name" required />
+    <input [(ngModel)]="student.email" name="email" placeholder="Email" required />
+    <button class="btn btn-warning" type="submit">Update</button>
+  </form>
+</div>
