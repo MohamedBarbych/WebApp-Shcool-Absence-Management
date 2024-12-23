@@ -12,7 +12,7 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./add-student.component.css'],
 })
 export class AddStudentComponent {
-  student: any = { name: '', email: '', phoneNumber: '' }; // Initialize student object
+  student: any = { name: '', email: '', phoneNumber: '' };
 
   constructor(private studentService: StudentService, private router: Router) {}
 
