@@ -1,10 +1,13 @@
 <div class="container">
   <h1>Absences</h1>
+  <button class="btn btn-success mb-3" (click)="navigateToAddAbscence()">Add absence</button>
+
   <table class="table">
     <thead>
       <tr>
         <th>ID</th>
         <th>Reason</th>
+        <th>Student Id</th>
         <th>Date</th>
         <th>Actions</th>
       </tr>
@@ -13,17 +16,15 @@
       <tr *ngFor="let absence of absences">
         <td>{{ absence.id }}</td>
         <td>{{ absence.reason }}</td>
+        <td>{{ absence.student_id }}</td>
         <td>{{ absence.date }}</td>
         <td>
           <button class="btn btn-danger" (click)="deleteAbsence(absence.id)">Delete</button>
+          <button class="btn btn-warning" (click)="navigateToUpdateAbscence(student.id)">Update</button>
+
         </td>
       </tr>
     </tbody>
   </table>
-  <h2>Add Absence</h2>
-  <form (ngSubmit)="addAbsence()">
-    <input [(ngModel)]="newAbsence.reason" name="reason" placeholder="Reason" required />
-    <input [(ngModel)]="newAbsence.date" name="date" placeholder="Date" required type="date" />
-    <button class="btn btn-primary" type="submit">Add</button>
-  </form>
+
 </div>
