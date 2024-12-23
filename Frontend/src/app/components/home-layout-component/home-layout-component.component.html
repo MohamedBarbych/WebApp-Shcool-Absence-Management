@@ -1,0 +1,14 @@
+<div class="container">
+  <header>
+    <h1 class="title">Welcome to {{ title }}</h1>
+    <button class="toggle-nav" (click)="toggleNav()">☰</button>
+  </header>
+  <nav [class.collapsed]="isNavCollapsed">
+    <a routerLink="/home" routerLinkActive="active-link">Home</a>
+    <a routerLink="/students" routerLinkActive="active-link">Students</a>
+    <a routerLink="/absences" routerLinkActive="active-link">Absences</a>
+  </nav>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</div>

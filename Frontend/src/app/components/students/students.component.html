@@ -1,1 +1,29 @@
-<p>students works!</p>
+<div class="container">
+  <h1>Students</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of students">
+        <td>{{ student.id }}</td>
+        <td>{{ student.name }}</td>
+        <td>{{ student.email }}</td>
+        <td>
+          <button class="btn btn-danger" (click)="deleteStudent(student.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Add Student</h2>
+  <form (ngSubmit)="addStudent()">
+    <input [(ngModel)]="newStudent.name" name="name" placeholder="Name" required />
+    <input [(ngModel)]="newStudent.email" name="email" placeholder="Email" required />
+    <button class="btn btn-primary" type="submit">Add</button>
+  </form>
+</div>
