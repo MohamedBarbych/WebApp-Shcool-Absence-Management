@@ -26,6 +26,7 @@ public class AbsenceController {
 
     @PostMapping
     public Absence createAbsence(@RequestBody Absence absence) {
+
         return absenceService.createAbsence(absence);
     }
 

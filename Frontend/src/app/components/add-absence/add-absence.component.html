@@ -2,6 +2,7 @@
   <div class="form-container">
     <h1 class="form-title">Add Absence</h1>
     <form (ngSubmit)="addAbsence()">
+      <!-- Reason Input -->
       <div class="form-group">
         <input
           class="form-input"
@@ -11,24 +12,30 @@
           required
         />
       </div>
+
+      <!-- Date Picker Input -->
       <div class="form-group">
         <input
+          type="date"
           class="form-input"
           [(ngModel)]="absence.date"
           name="date"
-          placeholder="Date"
           required
         />
       </div>
+
+      <!-- Student ID Input -->
       <div class="form-group">
         <input
           class="form-input"
           [(ngModel)]="absence.student_id"
           name="student_id"
-          placeholder="Student Id"
+          placeholder="Student ID"
           required
         />
       </div>
+
+      <!-- Submit Button -->
       <button class="btn-submit" type="submit">Save</button>
     </form>
   </div>

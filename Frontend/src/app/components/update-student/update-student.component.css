@@ -1,0 +1,76 @@
+/* Container Styling */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #1e293b; /* Dark background for contrast */
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  .container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #38bdf8; /* Highlighted heading color */
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Form Input Fields */
+  .container form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #38bdf8; /* Light blue border */
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #0f172a; /* Dark input background */
+    color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .container form input:focus {
+    border-color: #10b981; /* Green highlight on focus */
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(16, 185, 129, 0.5);
+  }
+  
+  /* Submit Button */
+  .container form .btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #fbbf24; /* Bright yellow background */
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .container form .btn:hover {
+    background: #f59e0b; /* Darker yellow on hover */
+    box-shadow: 0px 5px 15px rgba(251, 191, 36, 0.3);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .container form input {
+      font-size: 0.9rem;
+    }
+  
+    .container form .btn {
+      font-size: 0.9rem;
+    }
+  }
+  
