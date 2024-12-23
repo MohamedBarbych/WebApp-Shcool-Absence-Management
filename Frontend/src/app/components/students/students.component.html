@@ -8,6 +8,7 @@
         <th>ID</th>
         <th>Name</th>
         <th>Email</th>
+        <th>Phone Number</th>
         <th>Actions</th>
       </tr>
     </thead>
@@ -16,6 +17,7 @@
         <td>{{ student.id }}</td>
         <td>{{ student.name }}</td>
         <td>{{ student.email }}</td>
+        <td>{{ student.phoneNumber }}</td>
         <td>
           <button class="btn btn-danger" (click)="deleteStudent(student.id)">Delete</button>
           <button class="btn btn-warning" (click)="navigateToUpdateStudent(student.id)">Update</button>

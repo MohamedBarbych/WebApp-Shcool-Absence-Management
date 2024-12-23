@@ -3,6 +3,8 @@
   <form (ngSubmit)="updateStudent()">
     <input [(ngModel)]="student.name" name="name" placeholder="Name" required />
     <input [(ngModel)]="student.email" name="email" placeholder="Email" required />
+    <input [(ngModel)]="student.phoneNumber" name="phoneNumber" placeholder="Phone Number" required />
+
     <button class="btn btn-warning" type="submit">Update</button>
   </form>
 </div>

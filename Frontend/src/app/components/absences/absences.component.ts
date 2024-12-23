@@ -12,7 +12,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class AbsenceListComponent implements OnInit {
   absences: any[] = [];
-  newAbsence: any = { reason: '', date: '' };
+  newAbsence: any = { reason: '', date: '' ,student_id:''};
 
   constructor(private absenceService: AbsenceService) {}
 
