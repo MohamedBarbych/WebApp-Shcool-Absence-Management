@@ -17,12 +17,20 @@ export class AddAbsenceComponent {
 
   addAbsence() {
     if (this.absence.date && this.absence.student_id && this.absence.reason) {
-      this.absenceService.createAbsence(this.absence).subscribe(() => {
-        this.router.navigate(['/abscences']);
+      // ----- absence object with the student id wrapped inside a student object ---
+      const formattedAbsence = {
+        date: this.absence.date,
+        reason: this.absence.reason,
+        student: { id: this.absence.student_id }  // ------- student_id into a student object ---------
+      };
+
+      this.absenceService.createAbsence(formattedAbsence).subscribe(() => {
+        this.router.navigate(['/absences']);
       });
     } else {
       console.log('Form is invalid. All fields are required.');
     }
   }
+
 }
 
