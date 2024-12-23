@@ -1,11 +1,39 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { StudentService } from '../../services/student.service';
 
 @Component({
   selector: 'app-students',
-  imports: [],
   templateUrl: './students.component.html',
-  styleUrl: './students.component.css'
+  styleUrls: ['./students.component.css']
 })
-export class StudentsComponent {
+export class StudentsComponent implements OnInit {
+  students: any[] = [];
+  newStudent: any = { name: '', email: '' };
 
+  constructor(private studentService: StudentService, private router: Router) {}
+
+  ngOnInit(): void {
+    this.fetchStudents();
+  }
+
+  fetchStudents() {
+    this.studentService.getStudents().subscribe(data => {
+      this.students = data;
+    });
+  }
+
+  deleteStudent(id: number) {
+    this.studentService.deleteStudent(id).subscribe(() => {
+      this.fetchStudents();
+    });
+  }
+
+  navigateToAddStudent() {
+    this.router.navigate(['/add-student']);
+  }
+
+  navigateToUpdateStudent(id: number) {
+    this.router.navigate(['/update-student', id]);
+  }
 }

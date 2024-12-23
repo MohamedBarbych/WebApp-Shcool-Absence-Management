@@ -1,0 +1,14 @@
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+  <div class="container text-center bg-white p-5 rounded shadow-lg">
+    <header class="mb-4">
+      <h1 class="text-primary">Welcome to {{ title }}</h1>
+      <button class="btn btn-primary mt-3" (click)="toggleNav()">Toggle Navigation</button>
+    </header>
+    <nav [ngClass]="{ 'd-none': isNavCollapsed }" class="nav flex-column">
+      <a class="nav-link text-white bg-primary my-2 rounded" routerLink="/home">Home</a>
+      <a class="nav-link text-white bg-primary my-2 rounded" routerLink="/students">Students</a>
+      <a class="nav-link text-white bg-primary my-2 rounded" routerLink="/absences">Absences</a>
+    </nav>
+    <router-outlet></router-outlet>
+  </div>
+</div>

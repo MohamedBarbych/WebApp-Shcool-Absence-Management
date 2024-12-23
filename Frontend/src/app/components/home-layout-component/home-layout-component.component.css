@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(135deg, #e0f7fa, #f3e5f5);
+}
+
+.nav-link:hover {
+  background-color: #64b5f6;
+  transition: all 0.3s ease;
+}

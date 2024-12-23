@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AbsenceListComponent } from './absences.component';
+import { PpComponent } from './pp.component';
 
-describe('AbsenceListComponent', () => {
-  let component: AbsenceListComponent;
-  let fixture: ComponentFixture<AbsenceListComponent>;
+describe('PpComponent', () => {
+  let component: PpComponent;
+  let fixture: ComponentFixture<PpComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AbsenceListComponent]
+      imports: [PpComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AbsenceListComponent);
+    fixture = TestBed.createComponent(PpComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
