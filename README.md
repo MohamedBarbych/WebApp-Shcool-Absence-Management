@@ -48,9 +48,19 @@ src/
  - **Students List**
 
 ![image](https://github.com/user-attachments/assets/da36978a-bdbe-4b98-95c4-819b829c1352)
+- **Add a Student**
+
+![image](https://github.com/user-attachments/assets/b455482c-d802-4c82-ae70-aacd250dedfb)
+
 
  - **Update a Student**
 ![image](https://github.com/user-attachments/assets/246d1f62-5ff1-43c0-91ca-e1294f504686)
 
 - **Absences List**
 ![image](https://github.com/user-attachments/assets/89326a93-6cde-49d6-9221-24537dea6191)
+
+- **Add an Absence**
+
+![image](https://github.com/user-attachments/assets/0201741a-2fcd-4f9c-839b-079e5256ae3d)
+
+
