@@ -52,3 +52,5 @@ src/
  - **Update a Student**
 ![image](https://github.com/user-attachments/assets/246d1f62-5ff1-43c0-91ca-e1294f504686)
 
+- **Absences List**
+![image](https://github.com/user-attachments/assets/89326a93-6cde-49d6-9221-24537dea6191)
