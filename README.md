@@ -42,6 +42,10 @@ src/
 
 ### **Screenshots oof the App** ###
 
-##**- Home page** ##
+## **- Home page** ##
 ![image](https://github.com/user-attachments/assets/082905e8-b478-4e00-ae75-139d8b61d09e)
+
+## **- Students List** ##
+
+![image](https://github.com/user-attachments/assets/da36978a-bdbe-4b98-95c4-819b829c1352)
 
