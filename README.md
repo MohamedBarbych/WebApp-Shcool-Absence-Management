@@ -8,7 +8,7 @@
 ## 🚀 Features  
 - 📋 **CRUD Operations** for Students and Absences.   
 - 🛠️ Built with **Spring Boot** (Spring Data, Spring MVC, Spring IOC).  
-- 🌐 Frontend powered by **Angular** or ****.   
+- 🌐 Frontend powered by **Angular** .   
 - 💾 **MySQL** database integration with JPA and Hibernate.   
 - 📡 **REST API** for seamless back and frontend communication.  
 
