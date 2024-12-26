@@ -38,3 +38,8 @@ src/
 │   ├── resources/
 │   │   ├── application.properties # Configurations
 
+```
+
+### **Cpature d"ecran des pages** ###
+
+
