@@ -49,4 +49,6 @@ src/
 
 ![image](https://github.com/user-attachments/assets/da36978a-bdbe-4b98-95c4-819b829c1352)
 
+ - **Update a Student**
+![image](https://github.com/user-attachments/assets/246d1f62-5ff1-43c0-91ca-e1294f504686)
 
