@@ -63,4 +63,7 @@ src/
 
 ![image](https://github.com/user-attachments/assets/0201741a-2fcd-4f9c-839b-079e5256ae3d)
 
+- **Update an Absence**
+
+![image](https://github.com/user-attachments/assets/507356e6-422d-42ba-8b0e-734b57511c1d)
 
