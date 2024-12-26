@@ -40,6 +40,6 @@ src/
 
 ```
 
-### **Cpature d"ecran des pages** ###
+### **Cpature decran des pages** ###
 
 
